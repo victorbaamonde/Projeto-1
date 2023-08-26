@@ -25,7 +25,7 @@ print(full_name)
 #                     make your function more flexible, reduces # of arguments
 # ---- EXAMPLE ----
 def net_price(list_price, discount=0, tax=0.05):
-   return list_price * (1 - discount) * (1 - tax)
+    return list_price * (1 - discount) * (1 - tax)
 
 # print(net_price(500))
 # print(net_price(500, 0.1))
